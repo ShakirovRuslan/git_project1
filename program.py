@@ -1,5 +1,5 @@
 def main():
-    print('Hello, world')
+    print('My first commit on Linux!')
 
 
 if __name__ == '__main__':
