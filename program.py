@@ -10,7 +10,7 @@ class Board:
         self.left = 10
         self.top = 10
         self.player = 1
-        self.cell_size = 100
+        self.cell_size = 70
 
     def set_view(self, left, top, cell_size):
         self.left = left
@@ -64,9 +64,9 @@ class Board:
 
 if __name__ == "__main__":
     pygame.init()
-    pygame.display.set_caption("Реакция на события от мыши")
+    pygame.display.set_caption("Крестики-нолики")
 
-    board = Board(3, 3)
+    board = Board(5, 5)
     running = True
     screen = pygame.display.set_mode((600, 400))
     while running:
